@@ -23,3 +23,24 @@ h2 {
 	color: #2c3e50;
 	font-size: 2.0rem;
 }
+.post {
+	margin-bottom: 20px;
+}
+
+hr{
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
